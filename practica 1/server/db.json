@@ -1,4 +1,17 @@
 {
-    "users": [],
-    "tasks": []
+  "users": [
+    {
+      "id": "682e",
+      "name": "erick",
+      "email": "erick@giraldo.com",
+      "password": "U2FsdGVkX1/NjfnwhmwtESvf0QNPIO23Ww1SSc59hYE="
+    },
+    {
+      "id": "06bf",
+      "name": "nicopicon",
+      "email": "nico@picon.com",
+      "password": "U2FsdGVkX1+wRfgZQT2FZDcEHFUQfnw+bplGliR/tXk="
+    }
+  ],
+  "tasks": []
 }

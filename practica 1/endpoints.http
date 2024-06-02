@@ -1,0 +1,38 @@
+POST http://localhost:3000/users
+content-Type: application/json
+
+{
+    "username": "esgiraldop",
+    "email": "erick@giraldo.com",
+    "password": "password123"
+}
+
+###
+GET http://localhost:3000/users
+
+###
+GET http://localhost:3000/users/e32b
+
+###
+GET http://localhost:3000/users?email=nico@picon.com
+
+###
+DELETE http://localhost:3000/users/d32a
+
+###
+PUT http://localhost:3000/users/25b3
+Content-Type: application/json
+
+{
+    "username": "nicopicon",
+    "email": "nico@picon.com",
+    "password": "password123"
+}
+
+###
+PATCH http://localhost:3000/users/e32b
+Content-Type: application/json
+
+{
+    "username": "thisIsNotErick"
+}
