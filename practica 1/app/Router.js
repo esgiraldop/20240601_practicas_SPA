@@ -20,7 +20,11 @@ export function Router(){
         return
     }
     if(privateRoute){
-        privateRoute.scene()
+        if(token){
+            privateRoute.scene()
+            return
+        }
+        navigateTo('/login')
         return
     }
     navigateTo('/notFound')

@@ -2,6 +2,7 @@ import { notFoundScene } from "../scenes/public/notFound/notFound.scene";
 import { loginScene } from "../scenes/public/login";
 import { registerScene } from "../scenes/public/register/register.scene";
 import { tasksScene } from "../scenes/private/tasks/tasks.scene";
+import { usersScene } from "../scenes/private/users/users.scene";
 
 export const routes = {
     public: [
@@ -12,6 +13,6 @@ export const routes = {
     ],
     private: [
         {path: '/tasks', scene: tasksScene},
-        {path: '/tasks', scene: usersScene}
+        {path: '/users', scene: usersScene}
     ]
 }
