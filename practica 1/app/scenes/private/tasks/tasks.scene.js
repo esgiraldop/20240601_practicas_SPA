@@ -1,8 +1,11 @@
 import styles from './tasks.styles.css'
 
 export function tasksScene(){
-    const $root = document.getElementById("root")
-    $root.innerHTML = `
-        Hello from tasks
+    const pageContent = `
+       <p>Hello from tasks</p>
     `
+    const logic = () =>{
+        console.log("Executing the logic tasks")
+    }
+    return {pageContent, logic}
 }

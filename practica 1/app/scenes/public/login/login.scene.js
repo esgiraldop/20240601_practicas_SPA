@@ -7,6 +7,7 @@ export function loginScene(){
     const root = document.getElementById("root")
     root.innerHTML = `
         <form class=${styles.formContainer}>
+            <h2>Log in</h2>
             <input type="email" placeholder="johndoe@example.com" autocomplete="email">
             <input type="password" placeholder="password" autocomplete="current-password">
             <button type="submit">Login</button>

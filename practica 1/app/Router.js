@@ -1,14 +1,19 @@
+import { NavbarLayout } from "./components/navbar-layout.component"
 import { routes } from "./helpers/routes"
-import { notFoundScene } from "./scenes/public/notFound/notFound.scene"
 
 export function Router(){
     const path = window.location.pathname
 
     const token = localStorage.getItem('token')
-    if(path === '/login' || path === '/register'){
+    if(path === '/login' || path === '/register' || path === '/'){
         if(token){
+            //If the user is logged in and tries to acces either login or registration, he will be taken to tasks
             console.log("Navigating to tasks")
             navigateTo('/tasks')
+            return
+        }
+        if(!token && path === '/'){
+            navigateTo('/login')
             return
         }
     }
@@ -21,7 +26,8 @@ export function Router(){
     }
     if(privateRoute){
         if(token){
-            privateRoute.scene()
+            const {pageContent, logic} = privateRoute.scene()
+            NavbarLayout(pageContent, logic)
             return
         }
         navigateTo('/login')

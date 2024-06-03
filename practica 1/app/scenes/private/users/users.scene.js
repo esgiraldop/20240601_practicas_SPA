@@ -1,8 +1,11 @@
 import styles from './users.styles.css'
 
 export function usersScene(){
-    const $root = document.getElementById("root")
-    $root.innerHTML=`
-        Hello from users
+    const pageContent = `
+       <p>Hello from users</p>
     `
+    const logic = () =>{
+        console.log("Executing the logic users")
+    }
+    return {pageContent, logic}
 }
