@@ -1,17 +1,79 @@
 {
   "users": [
     {
-      "id": "682e",
+      "id": "1",
       "name": "erick",
       "email": "erick@giraldo.com",
       "password": "U2FsdGVkX1/NjfnwhmwtESvf0QNPIO23Ww1SSc59hYE="
     },
     {
-      "id": "06bf",
+      "id": "2",
       "name": "nicopicon",
       "email": "nico@picon.com",
       "password": "U2FsdGVkX1+wRfgZQT2FZDcEHFUQfnw+bplGliR/tXk="
+    },
+    {
+      "id": "3",
+      "name": "fede",
+      "email": "fede@giraldo.com",
+      "password": "U2FsdGVkX1/cXX4Obmb4bGF89cOjDpOQYSJ1efCGSj0="
     }
   ],
-  "tasks": []
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Task 1",
+      "description": "This is a description for task 1",
+      "Priority": 1,
+      "Delivery date": "2024-06-02T12:00:00Z",
+      "active": false,
+      "userId": 1,
+      "username": "This is not Erick"
+    },
+    {
+      "id": "2",
+      "title": "Task 2",
+      "description": "This is a description for task 2",
+      "Priority": 3,
+      "Delivery date": "2024-06-05T12:00:00Z",
+      "active": false,
+      "userId": 1
+    },
+    {
+      "id": "3",
+      "title": "Task 3",
+      "description": "This is a description for task 3",
+      "Priority": 2,
+      "Delivery date": "2024-06-04T12:00:00Z",
+      "active": false,
+      "userId": 1
+    },
+    {
+      "id": "4",
+      "title": "Task 4",
+      "description": "This is a description for task 4",
+      "Priority": 3,
+      "Delivery date": "2024-06-10T12:00:00Z",
+      "active": false,
+      "userId": 2
+    },
+    {
+      "id": "5",
+      "title": "Task 5",
+      "description": "This is a description for task 5",
+      "Priority": 1,
+      "Delivery date": "2024-06-08T12:00:00Z",
+      "active": false,
+      "userId": 3
+    },
+    {
+      "id": "6",
+      "title": "Task 6",
+      "description": "This is a description for task 6",
+      "Priority": 2,
+      "Delivery date": "2024-06-07T12:00:00Z",
+      "active": false,
+      "userId": 3
+    }
+  ]
 }

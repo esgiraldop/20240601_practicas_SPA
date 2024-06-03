@@ -1,7 +1,7 @@
 import { encryptData } from '../../../../encrypt'
 import { navigateTo } from '../../../Router'
 import { fetchApi } from '../../../helpers/fetch-api'
-import styles from './register.styles.css'
+import styles from '../../../helpers/styles.css'
 
 export function registerScene(){
     const $root = document.getElementById("root")

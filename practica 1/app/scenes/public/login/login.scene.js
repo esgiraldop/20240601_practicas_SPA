@@ -1,7 +1,7 @@
 import { decryptData } from '../../../../encrypt'
 import { navigateTo } from '../../../Router'
 import { fetchApi } from '../../../helpers/fetch-api'
-import styles from './login.styles.css'
+import styles from '../../../helpers/styles.css'
 
 export function loginScene(){
     const root = document.getElementById("root")

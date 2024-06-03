@@ -8,17 +8,29 @@ content-Type: application/json
 }
 
 ###
-GET http://localhost:3000/users
+GET http://localhost:3000/tasks
 
 ###
-GET http://localhost:3000/users/e32b
+GET http://localhost:3000/tasks?id=1
+Accept: application/json
+
+###
+GET http://localhost:3000/tasks/1
+Accept: application/json
+
+###
+GET http://localhost:3000/users?id=3
 
 ###
 GET http://localhost:3000/users?email=nico@picon.com
 
 ###
-DELETE http://localhost:3000/users/d32a
+DELETE http://localhost:3000/tasks?id=1
+Content-Type: application/json
 
+{
+
+}
 ###
 PUT http://localhost:3000/users/25b3
 Content-Type: application/json
@@ -30,9 +42,9 @@ Content-Type: application/json
 }
 
 ###
-PATCH http://localhost:3000/users/e32b
+PATCH http://localhost:3000/tasks/1
 Content-Type: application/json
 
 {
-    "username": "thisIsNotErick"
+    "active": false
 }

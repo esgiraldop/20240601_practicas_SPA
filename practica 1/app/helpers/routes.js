@@ -3,6 +3,7 @@ import { loginScene } from "../scenes/public/login";
 import { registerScene } from "../scenes/public/register/register.scene";
 import { tasksScene } from "../scenes/private/tasks/tasks.scene";
 import { usersScene } from "../scenes/private/users/users.scene";
+import { editTaskScene } from "../scenes/private/editTask";
 
 export const routes = {
     public: [
@@ -13,6 +14,7 @@ export const routes = {
     ],
     private: [
         {path: '/tasks', scene: tasksScene},
-        {path: '/users', scene: usersScene}
+        {path: '/users', scene: usersScene},
+        {path: '/tasks/editTask', scene: editTaskScene}
     ]
 }
