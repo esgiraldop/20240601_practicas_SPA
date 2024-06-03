@@ -48,3 +48,6 @@ Content-Type: application/json
 {
     "active": false
 }
+
+###
+GET http://localhost:3000/users/1?_embed=tasks

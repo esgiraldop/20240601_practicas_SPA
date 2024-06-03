@@ -17,6 +17,12 @@
       "name": "fede",
       "email": "fede@giraldo.com",
       "password": "U2FsdGVkX1/cXX4Obmb4bGF89cOjDpOQYSJ1efCGSj0="
+    },
+    {
+      "id": "160f",
+      "name": "esgiraldop",
+      "email": "erick@giraldo.com",
+      "password": "password123"
     }
   ],
   "tasks": [
@@ -27,7 +33,7 @@
       "Priority": 1,
       "Delivery date": "2024-06-02T12:00:00Z",
       "active": false,
-      "userId": 1,
+      "userId": "1",
       "username": "This is not Erick"
     },
     {
@@ -37,7 +43,7 @@
       "Priority": 3,
       "Delivery date": "2024-06-05T12:00:00Z",
       "active": false,
-      "userId": 1
+      "userId": "1"
     },
     {
       "id": "3",
@@ -46,7 +52,7 @@
       "Priority": 2,
       "Delivery date": "2024-06-04T12:00:00Z",
       "active": false,
-      "userId": 1
+      "userId": "1"
     },
     {
       "id": "4",
@@ -55,7 +61,7 @@
       "Priority": 3,
       "Delivery date": "2024-06-10T12:00:00Z",
       "active": false,
-      "userId": 2
+      "userId": "2"
     },
     {
       "id": "5",
@@ -64,7 +70,7 @@
       "Priority": 1,
       "Delivery date": "2024-06-08T12:00:00Z",
       "active": false,
-      "userId": 3
+      "userId": "3"
     },
     {
       "id": "6",
@@ -73,7 +79,7 @@
       "Priority": 2,
       "Delivery date": "2024-06-07T12:00:00Z",
       "active": false,
-      "userId": 3
+      "userId": "3"
     }
   ]
 }
