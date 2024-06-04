@@ -6,7 +6,7 @@ export function registerScene(){
     $root.innerHTML = `
         <form class="formContainer">
             <h2>Sign up</h2>
-            <p>This is a form for signing up</p>
+            <
         </form>
     `
 }

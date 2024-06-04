@@ -1,5 +1,5 @@
 ###
-GET http://localhost:3000/products
+GET http://localhost:3000/users?email=erick@admin.com
 
 ###
 GET http://localhost:3000/roles/1
