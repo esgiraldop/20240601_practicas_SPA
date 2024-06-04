@@ -1,4 +1,4 @@
-import { navigateTo } from '../../../../../practica 1/app/Router'
+import { navigateTo } from '../../../../../practica 2/app/router'
 import { decryptData } from '../../../helpers/encrypt'
 import { fetchApi } from '../../../helpers/fetch-api'
 import styles from '../../../helpers/styles.css'
@@ -8,7 +8,7 @@ export function loginScene(){
     const $root = document.getElementById("root")
     $root.innerHTML = `
         <form id="loginForm" class="formContainer">
-            <h2>login</h2>
+            <h2>Sign in</h2>
             <legend for="email">Email</legend>
             <input id="email" name="email" type="email" placeholder="johndoe@example.com" autocomplete="email"/>
             <legend for="password">Password</legend>
@@ -51,6 +51,6 @@ export function loginScene(){
         localStorage.setItem('token', Math.random().toString(32).substring(2))
         localStorage.setItem('role', `${usrData.roleId}`)
         alert(`Welcome to your page ${usrData.name}!`)
-        navigateTo('/Dashboard')
+        navigateTo('/dashboard')
     })
 }
