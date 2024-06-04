@@ -1,0 +1,54 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Test product",
+            "description": "Description of product test",
+            "price": 1000,
+            "stock": 4,
+            "category": "test"
+        },
+        {
+            "id": 2,
+            "name": "Test product 2",
+            "description": "Description of product test 2",
+            "price": 500,
+            "stock": 10,
+            "category": "test"
+        }
+    ],
+    "roles": [
+        {
+            "id": 1,
+            "role": "User Visitor"
+        },
+        {
+            "id": 2,
+            "role": "User Administrator"
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "Erick admin",
+            "email": "erick@admin.com",
+            "password": "U2FsdGVkX1/GPQGGuvpeLrLAD2Ov7OPkuKOAaalX7yQ=",
+            "roleId": 2
+        },
+        {
+            "id": 2,
+            "name": "Erick visitor",
+            "email": "erick@visitor.com",
+            "password": "U2FsdGVkX1/GPQGGuvpeLrLAD2Ov7OPkuKOAaalX7yQ=",
+            "roleId": 1
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "userId": 2,
+            "products": [1, 2],
+            "total": 0
+        }
+    ]
+}
