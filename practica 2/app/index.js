@@ -1,7 +1,6 @@
-import { decryptData, encryptData } from "../encrypt";
+import { app } from './app'
+import './helpers/styles.css'
 
 document.addEventListener('DOMContentLoaded', () =>{
-    document.write("Hola mundo")
-    const pass = encryptData("pass")
-    console.log("pass: ", pass)
+    app()
 })
