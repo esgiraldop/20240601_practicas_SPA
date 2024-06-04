@@ -1,0 +1,21 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 15rem;
+    gap: 10px;
+    height: 15rem;
+    margin: 30vh auto;
+    background-color: var(--color1);
+    border-radius: 5px;
+}
+
+button{
+    padding: 0.3rem;
+    /* background-color: transparent; */
+    border: white 1px solid;
+    border-radius: 3px;
+    color: black;
+}
