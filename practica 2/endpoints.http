@@ -1,0 +1,11 @@
+###
+GET http://localhost:3000/products
+
+###
+GET http://localhost:3000/roles/1
+
+###
+GET http://localhost:3000/users/2?_embed=orders
+
+###
+GET http://localhost:3000/users/1?_embed=orders
